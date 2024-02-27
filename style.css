@@ -1,0 +1,67 @@
+* {  /* tdo o meu codigo */
+      margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+
+
+
+header { 
+    background-color: rgb(7, 100, 107);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: contents;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logo{ /* o hashtag é o ID do elemento  */
+      width: 150px;}
+
+      #texto{
+        font-size: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display:contents
+
+      }
+      
+      body{
+        background-color: hsl(216, 88%, 19%);
+        width: 100%;
+      }
+
+      nav{
+        background-color: rgb(115, 136, 255);
+        height: 80px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+      }
+ul{
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /*este codigo tira as bolinhas */
+  list-style: none;
+}
+#container{
+  background-color: rgb(3, 45, 82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+
+}
+
+.texto{
+  color: rgb(255, 255, 255);
+}
